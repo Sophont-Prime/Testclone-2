@@ -1,13 +1,3 @@
-#include "motor.h"
-#include "sensor.h"
-#include "pid.h"
-#include <Arduino.h>
-
-int Speed_init = 60;
-int left_motor = 0;
-int right_motor = 0;
-
-int PID_memory = 15;
 int PID_H[15];
 
 //This is the array and adjacent array necessary code
